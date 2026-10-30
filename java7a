@@ -1,0 +1,24 @@
+arr = []
+
+n = int(input("Enter number of elements: "))
+
+print("Enter array elements:")
+for i in range(n):
+    arr.append(int(input()))
+
+print("Original Array:", arr)
+
+# Append an element
+x = int(input("Enter element to append: "))
+arr.append(x)
+print("After Append:", arr)
+
+# Insert an element
+y = int(input("Enter element to insert: "))
+pos = int(input("Enter position: "))
+arr.insert(pos, y)
+print("After Insert:", arr)
+
+# Reverse the array
+arr.reverse()
+print("Reversed Array:", arr)
